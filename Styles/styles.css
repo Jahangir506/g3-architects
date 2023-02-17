@@ -91,6 +91,11 @@ button {
 .Sponspors-details {
   text-align: center;
 }
+.sponspors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .sponspors img {
   margin-left: 20px;
   margin: 50px;
