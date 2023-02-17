@@ -3,6 +3,10 @@ body {
   box-sizing: border-box;
 }
 .Container {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.header-Container {
   background: rgba(255, 144, 14, 0.1);
   padding-bottom: 50px;
   margin-bottom: 50px;
@@ -12,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-h3 {
+.title {
   margin-left: 80px;
 }
 .navbar-list {
@@ -39,24 +43,57 @@ button {
   width: 87%;
   margin-left: 82px;
 }
-.grid-container {
+.features-container {
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  gap: 10px;
+  margin: 80px;
 }
-.Features-details {
-  text-align: center;
+.features-details {
+  grid-column-start: 5;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 1;
+  margin-top: 200px;
+}
+.love {
   display: grid;
-  justify-items: center;
-  grid-column: 1/1;
-  grid-row: 1/1;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 80px;
+  margin-right: 80px;
+  column-gap: 80px;
+}
+.love-img img {
+  width: 100%;
+}
+.love-btn {
+  width: 252px;
+  height: 150px;
+  position: relative;
+  bottom: 100px;
+  right: 50px;
+}
+.Facts-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Facts {
+  border: 1px solid #ff900e;
+  margin-left: 20px;
+  text-align: center;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 7px;
 }
 .footer {
   background-color: #fff4e7;
   width: 100%;
   border-radius: 8px;
 }
-h4 {
+h5 {
   text-align: center;
   padding: 40px;
   margin: 50px;
