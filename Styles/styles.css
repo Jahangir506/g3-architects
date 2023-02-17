@@ -48,7 +48,7 @@ button {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  gap: 10px;
+  gap: 5px;
   margin: 80px;
 }
 .features-details {
